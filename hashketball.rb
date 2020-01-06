@@ -115,8 +115,8 @@ def num_points_scored(name)
            score = p_points[:points]
         end
       end
-      end
-      return score
+    end
+    return score
 end
 
 
