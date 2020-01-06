@@ -107,10 +107,9 @@ def game_hash
 end
 
 def num_points_scored(name)
-    score = 0 
-    binding.pry
+    score = nil
+    # binding.pry
     g_hash.each do |team, dets| 
-      binding.pry
       p_array = dets[:players]
       p_array.each do |p_points|
         if p_points[:player_name] == name 
