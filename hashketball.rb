@@ -145,10 +145,10 @@ def team_colors(name)
     return colors
 end
 
-def team_name
-    game_hash.collect do |team, dets|
-      dets[:team_name]
-    end
+def team_names
+  game_hash.collect do |team, dets|
+    dets[:team_name]
+  end
 end
 
 
