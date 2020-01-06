@@ -8,7 +8,7 @@ def game_hash
     g_hash[:home][:colors] = ["Black", "White"]
     binding.pry
     g_hash[:home][:players] = [
-    {"Alan Anderson"=>{
+    {:player_name=>"Alan Anderson",
       :number=>0, 
       :shoe=>16, 
       :points=>22, 
@@ -17,7 +17,7 @@ def game_hash
       :steals=>3, 
       :blocks=>1, 
       :slam_dunks=>1 }, 
-    {"Reggie Evans"=>{
+    {:player_name=>"Reggie Evans",
       :number=>30, 
       :shoe=>14, 
       :points=>12, 
@@ -26,7 +26,7 @@ def game_hash
       :steals=>12, 
       :blocks=>12, 
       :slam_dunks=>7}, 
-    {"Brook Lopez"=>{
+    {:player_name=>"Brook Lopez",
       :number=>0, 
       :shoe=>16, 
       :points=>22, 
@@ -35,7 +35,7 @@ def game_hash
       :steals=>3, 
       :blocks=>1, 
       :slam_dunks=>1}, 
-    {"Mason Plumlee"=>{
+    {:player_name=>"Mason Plumlee",
       :number=>0, 
       :shoe=>16, 
       :points=>22, 
@@ -44,7 +44,7 @@ def game_hash
       :steals=>3, 
       :blocks=>1, 
       :slam_dunks=>1}, 
-    {"Jason Terry"=>{
+    {:player_name=>"Jason Terry",
       :number=>0, 
       :shoe=>16, 
       :points=>22, 
@@ -56,7 +56,7 @@ def game_hash
     g_hash[:away][:team_name] = "Charlotte Hornets"
     g_hash[:away][:colors] = ["Turquoise", "Purple"]
     g_hash[:away][:players] = [
-    {"Jeff Adrien"=>{
+    {:player_name=>"Jeff Adrien",
       :number=>0, 
       :shoe=>16, 
       :points=>22, 
@@ -65,7 +65,7 @@ def game_hash
       :steals=>3, 
       :blocks=>1, 
       :slam_dunks=>1 }, 
-    {"Bismack Biyombo"=>{
+    {:player_name=>"Bismack Biyombo",
       :number=>30, 
       :shoe=>14, 
       :points=>12, 
@@ -74,7 +74,7 @@ def game_hash
       :steals=>12, 
       :blocks=>12, 
       :slam_dunks=>7}, 
-    {"DeSagna Diop"=>{
+    {:player_name=>"DeSagna Diop",
       :number=>0, 
       :shoe=>16, 
       :points=>22, 
@@ -83,7 +83,7 @@ def game_hash
       :steals=>3, 
       :blocks=>1, 
       :slam_dunks=>1 }, 
-    {"Ben Gordon"=>{
+    {:player_name=>"Ben Gordon",
       :number=>0, 
       :shoe=>16, 
       :points=>22, 
@@ -92,7 +92,7 @@ def game_hash
       :steals=>3, 
       :blocks=>1, 
       :slam_dunks=>1}, 
-    {"Kemba Walker"=>{
+    {:player_name=>"Kemba Walker",
       :number=>0, 
       :shoe=>16, 
       :points=>22, 
