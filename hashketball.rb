@@ -1,13 +1,11 @@
 require 'pry'
 # Write your code here!
 def game_hash
-    g_hash ={}
-    g_hash[:home] = {}
-    g_hash[:away] = {}
-    g_hash[:home][:team_name] = "Brooklyn Nets"
-    g_hash[:home][:colors] = ["Black", "White"]
-    binding.pry
-    g_hash[:home][:players] = [
+    g_hash ={
+    :home=>
+    :team_name=> "Brooklyn Nets"
+    :colors=>["Black", "White"]
+    :players=> [
     {:player_name=>"Alan Anderson",
       :number=>0, 
       :shoe=>16, 
@@ -53,9 +51,10 @@ def game_hash
       :steals=>3, 
       :blocks=>1, 
       :slam_dunks=>1}}]
-    g_hash[:away][:team_name] = "Charlotte Hornets"
-    g_hash[:away][:colors] = ["Turquoise", "Purple"]
-    g_hash[:away][:players] = [
+    :away=>
+    :team_name=>"Charlotte Hornets"
+    :colors=>["Turquoise", "Purple"]
+    :players=>[
     {:player_name=>"Jeff Adrien",
       :number=>0, 
       :shoe=>16, 
@@ -102,6 +101,7 @@ def game_hash
       :blocks=>1, 
       :slam_dunks=>1}}
       ]
+      }
     return g_hash
 end
 
