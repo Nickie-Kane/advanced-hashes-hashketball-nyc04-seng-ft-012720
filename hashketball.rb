@@ -120,18 +120,18 @@ def num_points_scored(name)
     return score
 end
 
-def num_points_scored(name)
-    score = 0
+def shoe_size(name)
+    size = 0
     # binding.pry
     game_hash.each do |team, dets| 
       p_array = dets[:players]
       p_array.each do |p_points|
         if p_points[:player_name] == name 
-           score = p_points[:points]
+           size = p_points[:shoe]
         end
       end
     end
-    return score
+    return size
 end
 
 
