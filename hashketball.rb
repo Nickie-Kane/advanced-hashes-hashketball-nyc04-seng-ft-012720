@@ -134,7 +134,7 @@ def shoe_size(name)
     return size
 end
 
-def shoe_size(name)
+def team_colors(name)
     colors = 0
     # binding.pry
     game_hash.each do |team, dets| 
