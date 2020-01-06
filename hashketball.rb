@@ -138,8 +138,8 @@ def team_colors(name)
     colors = 0
     # binding.pry
     game_hash.each do |team, dets| 
-        if p_points[:player_name] == name 
-           colors = p_points[:colors]
+        if dets[:team_name] == name 
+           colors = dets[:colors]
         end
     return colors
 end
