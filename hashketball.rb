@@ -113,6 +113,7 @@ def num_points_scored(name)
       p_array.each do |p_points|
         if p_points[:player_name] == name 
            score = p_points[:points]
+           binding.pry
         end
         binding.pry
       end
