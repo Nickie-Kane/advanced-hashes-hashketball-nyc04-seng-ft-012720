@@ -120,6 +120,20 @@ def num_points_scored(name)
     return score
 end
 
+def num_points_scored(name)
+    score = 0
+    # binding.pry
+    game_hash.each do |team, dets| 
+      p_array = dets[:players]
+      p_array.each do |p_points|
+        if p_points[:player_name] == name 
+           score = p_points[:points]
+        end
+      end
+    end
+    return score
+end
+
 
 
 
