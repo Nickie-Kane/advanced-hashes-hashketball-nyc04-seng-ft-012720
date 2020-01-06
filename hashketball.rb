@@ -134,6 +134,17 @@ def shoe_size(name)
     return size
 end
 
+def shoe_size(name)
+    colors = 0
+    # binding.pry
+    game_hash.each do |team, dets| 
+        if p_points[:player_name] == name 
+           colors = p_points[:colors]
+        end
+    return colors
+end
+
+
 
 
 
