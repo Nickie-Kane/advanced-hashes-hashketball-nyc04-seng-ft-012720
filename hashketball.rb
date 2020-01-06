@@ -141,6 +141,7 @@ def team_colors(name)
         if dets[:team_name] == name 
            colors = dets[:colors]
         end
+    end    
     return colors
 end
 
